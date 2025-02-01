@@ -15,9 +15,9 @@ print('Sorted Array: ',arr)
 
 l= 0
 r= n-1
-mid = (l+r)//2
 
 while l!=r:
+    mid =(l+r)//2
     if arr[mid] == target:
         print(mid)
         break
@@ -25,5 +25,5 @@ while l!=r:
         l = mid
     else:
         r = mid
-    mid =(l+r)//2
+    
 
